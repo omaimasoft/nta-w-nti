@@ -1,0 +1,17 @@
+{
+  "name": "fatima-event",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --input=src --output=docs --serve",
+    "build": "npx @11ty/eleventy --input=src --output=docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.5"
+  }
+}
